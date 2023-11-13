@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+body html {
+	font-family: Montserrat;
+	margin: 0;
+}
+
+.header {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 12px;
+	color: #fff;
+	font-size: 18px;
+	margin: -8px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-family: Montserrat;
+	box-shadow: 0 0 10px rgb(255, 255, 255);
+	animation: glow 1s infinite alternate;
+}
+
+.container {
+	padding: 0px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 12px;
+	color: #fff;
+	font-size: 18px;
+	margin: 50px;
+	border-radius: 25px;
+	font-family: Montserrat;
+	box-shadow: 0 0 10px rgb(255, 255, 255);
+	animation: glow 1s infinite alternate;
+}
+
+.icon-img {
+	padding: 0px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	font-size: 18px;
+	margin: 50px;
+	border-radius: 25px;
+	font-family: Montserrat;
+	box-shadow: 0 0 10px rgb(255, 255, 255);
+	animation: glow 1s infinite alternate;
+}
+
+.image {
+	background-image: url("https://media.discordapp.net/attachments/1074426914263015555/1168916797794295929/360_F_471002062_tCBbTqeeMhHgMfCW86mQhdgpETooy3ID_1.png");
+	filter: blur(1px);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 1;
+}
+
+.discord-icon-with-next-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.4);
+	;
+	cursor: pointer;
+	position: relative;
+	margin-bottom: -1px
+}
+
+.discord-text {
+	margin: 0px;
+}
+
+.custom-hr {
+	border-bottom: 1px solid #ccc;
+	width: 95%;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgb(255, 255, 255);
+	animation: galow 1s infinite alternate;
+}
+
+.astra-logo-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
